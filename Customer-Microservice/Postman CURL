@@ -1,0 +1,19 @@
+curl --location --request PUT 'http://localhost:8094/api/customers/65576f554399d7295ee2ae80' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "firstName":"avneet11111444444444444444444444444",
+    "lastName":"sharma",
+    "phoneNumber":"9899652443",
+    "email":"avneet@abc.ocm",
+    "creditLimit":1111111,
+    "createdBy": "avnesss",
+    "updatedBy": "avnesss",
+    "address":{
+        "addressLine1":"asdfasdfasdf",
+        "addressLine2":" abc",
+        "city":" noida",
+        "state":"up",
+        "zipCode":123456,
+        "country":"ind"
+    }
+}'
