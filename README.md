@@ -1,8 +1,8 @@
 # Order-System
 This is for management Order system
 
-Step - Checkout All Project and build using mvn clean install
-Step   Run kafka for event handler
-Step - Run Customer-Microservice 
-Step - Run Product-Microservice 
-Step - Run order-management-microservice
+Step - Checkout All Project and build using mvn clean install <br />
+Step   Run kafka for event handler <br />
+Step - Run Customer-Microservice <br />
+Step - Run Product-Microservice  <br />
+Step - Run order-management-microservice <br />
