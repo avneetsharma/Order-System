@@ -1,0 +1,43 @@
+curl --location --request PUT 'http://localhost:8095/api/order/196dbeaf-08ce-4a94-a96a-b59ed7ffafd9' \
+--header 'Content-Type: application/json' \
+--data '{
+   
+        
+        "customerId":"65572a06ad8e6217147f7bda",
+        "createdDate":"17-1-2024",
+        "updatedDate":"17-1-2024",
+        "orderAmount":123,
+        "status":" abc",
+        "invoiceNumber":" 114234",
+        "createdBy":"avneetSharma",
+        "updatedBy":"avneet",
+        "version":"avneet",
+        "product":{
+            "productId":"65573ddb5902fd3d8cc9cdb8",
+            "productCount":2
+        },
+        "shippingAddress":{
+        "shippingFirstName":"avneet",
+        "shippingLastName":"sharma",
+        "addressLine1":"asdfasdfasdf",
+        "addressLine2":" abc",
+        "city":" noida",
+        "state":"up",
+        "zipCode":123456,
+        "country":"ind"
+        }
+        ,
+        "billingAddress":{
+        "billingFirstName":"avneet",
+        "billingLastName":"sharma",
+        "addressLine1":"asdfasdfasdf",
+        "addressLine2":" abc",
+        "city":" noida",
+        "state":"up",
+        "zipCode":123456,
+        "country":"ind"
+        }
+    
+
+
+}'
